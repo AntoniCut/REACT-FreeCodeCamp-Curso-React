@@ -1,0 +1,59 @@
+/*  ************************************************************************************************  */
+/*  **********  /src/componentes/AppTareasComponent/hojas-de-estilo/responsiveTareas.css  **********  */
+/*  ************************************************************************************************  */
+
+
+@media (max-width: 635px) {
+
+    .tareas-lista-principal {
+        width: 90%;
+        min-height: 500px;
+    }
+}
+
+
+@media (max-width: 605px) {
+
+    .tarea-input {
+        width: 60%;
+        height: 50px;
+    }
+
+    .tarea-boton {
+        
+        padding: 16px;
+        height: 50px;
+        border-radius: 4px;
+        
+    }
+}
+
+
+@media (max-width: 555px) {
+
+    .tarea-input {
+        width: 500px;
+        height: 50px;
+    }
+
+    .tarea-boton {
+        margin-top: 10px;
+        padding: 16px;
+        height: 50px;
+    }
+}
+
+
+@media (max-width: 375px) {
+
+    .tarea-input {
+        width: 300px;
+        height: 50px;
+    }
+
+    .tarea-boton {
+        margin-top: 10px;
+        /* padding: 16px; */
+        font-size: 14px;
+    }
+}

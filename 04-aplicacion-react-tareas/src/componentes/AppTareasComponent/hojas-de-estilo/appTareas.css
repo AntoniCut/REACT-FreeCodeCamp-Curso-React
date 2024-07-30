@@ -1,0 +1,22 @@
+/*  *****************************************************************************************  */
+/*  **********  /src/componentes/AppTareasComponent/hojas-de-estilo/appTareas.css  **********  */
+/*  *****************************************************************************************  */
+
+
+.aplicacion-tareas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .tareas-lista-principal {
+    width: 600px;
+    min-height: 500px;
+    color: white;
+    background-color: #b0b0b5;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 26px;
+  }

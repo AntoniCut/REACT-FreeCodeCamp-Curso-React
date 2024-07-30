@@ -1,0 +1,53 @@
+/*  ************************************  */
+/*  **********  /src/App.css  **********  */
+/*  ************************************  */
+
+
+/*  **********  Importaciones de Estilos de la Cabecera  **********  */
+@import './componentes/HeaderComponent/css/headerComponent.css';
+@import './componentes/HeaderComponent/css/logoReact.css';
+@import './componentes/HeaderComponent/css/tituloAplicacion.css';
+@import './componentes/HeaderComponent/css/logoFreeCodeCamp.css';
+@import './componentes/HeaderComponent/css/headerResponsive.css';
+
+
+
+/*  **********  Importaciones de Estilos de la Aplicación de Tareas  **********  */
+@import './componentes/AppTareasComponent/hojas-de-estilo/appTareas.css';
+@import './componentes/AppTareasComponent/hojas-de-estilo/tarea.css';
+@import './componentes/AppTareasComponent/hojas-de-estilo/tareaFormulario.css';
+@import './componentes/AppTareasComponent/hojas-de-estilo/listaDeTareas.css';
+@import './componentes/AppTareasComponent/hojas-de-estilo/responsiveTareas.css';
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background-color: #1b1b32;
+}
+
+h1 {
+  color: #1b1b32;
+  font-size: 25px;
+  font-family: roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.App {
+  text-align: center;
+  background-color: #1b1b32;
+}
+
+
+.App-main {
+  background-color: #282c34;
+  padding-bottom: 100px;
+}
+

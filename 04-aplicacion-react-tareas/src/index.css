@@ -1,0 +1,20 @@
+html, body {
+  margin: 0;
+  /* background-color: #282c34; */
+  color: white;
+  background-color: #1b1b32;
+  font-family: Lato, sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*
+h1 ,h2 ,h3 ,h4 ,h5 ,h6, p, ul, span {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+  */

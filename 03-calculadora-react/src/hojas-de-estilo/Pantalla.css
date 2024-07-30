@@ -1,0 +1,20 @@
+/*  ******************************************************  */
+/*  **********  /src/hojas-de-estilo/Pantalla.css  **********  */
+/*  ******************************************************  */
+
+
+.input {
+    display: flex;
+    justify-content: flex-end;
+    height: 75px;
+    line-height: 75px; 
+    border-radius: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0a0a23;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    border: 1px solid #888888;
+    box-shadow: -1px 4px 1px 1px white;
+}

@@ -3,7 +3,6 @@
 //  *******************************************************
 
 import React from "react"
-import '../hojas-de-estilo/Testimonio.css'
 
 
 //  **********  Componente 'Testimonio()'  **********
@@ -16,7 +15,7 @@ export function Testimonio(props) {
 
             <img
                 className='imagen-testimonio'
-                src={require(`../imagenes/testimonio-${props.imagen}.png`)}
+                src={require(`../../imagenes/testimonio-${props.imagen}.png`)}
                 alt='Foto de Emma'
             />
 

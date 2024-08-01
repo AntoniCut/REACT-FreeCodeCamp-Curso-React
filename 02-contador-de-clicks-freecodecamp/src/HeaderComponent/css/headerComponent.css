@@ -1,0 +1,25 @@
+/*  ***************************************************************************  */
+/*  **********  /src/components/HeaderComponent/headerComponent.css  **********  */
+/*  ***************************************************************************  */
+
+
+.App-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 170px;
+    color: white;
+    background-color: #282c34;
+    border: 5px solid #61dafb;
+  }
+
+  
+  .container-logoCentral-tituloAplicacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    height: 170px;
+    gap: 0;
+    /* background-color: blue; */
+}

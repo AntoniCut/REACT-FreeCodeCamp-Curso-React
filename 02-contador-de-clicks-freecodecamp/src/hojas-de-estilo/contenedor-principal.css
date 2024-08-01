@@ -1,0 +1,43 @@
+/*  *****************************************************************  */
+/*  **********  /src/hojas-de-estilo/contenedor-principal  **********  */
+/*  *****************************************************************  */
+
+
+.contenedor-principal {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   height: 550px;
+   min-width: 600px;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+}
+
+
+@media (max-width: 700px) {
+
+   .contenedor-principal {
+      width: 100%;
+      margin-top: 40px;
+   }
+
+   .contador {
+      flex-basis: 50%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 160px;
+      padding: 25px;
+   }
+
+   .container-botones {
+      flex-basis: 50%;
+      font-size: 35px;
+   }
+
+   button {
+      width: 100%;
+   }
+}

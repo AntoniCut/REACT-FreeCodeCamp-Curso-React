@@ -9,14 +9,14 @@
    align-items: center;
    width: 50%;
    height: 170px;
-   font-size: 48px;
+   font-size: 20px;
    /* background-color: greenyellow; */
 }
 
-.titulo-proyecto-texto {
-   font-size: 48px;
-   
+/* .titulo-proyecto-texto {
+   font-size: 48px; 
 }
+*/
 
 .texto-blanco {
    color: white;

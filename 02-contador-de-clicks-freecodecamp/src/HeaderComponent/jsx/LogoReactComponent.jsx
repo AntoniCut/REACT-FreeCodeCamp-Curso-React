@@ -4,7 +4,6 @@
 
 
 import logoReact from '../img/logoReact.svg';
-//import '../css/logoReact.css';
 
 
 export const LogoReactComponent = () => {

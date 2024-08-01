@@ -4,8 +4,8 @@
 
 
 import './App.css';
-import { AppMainComponent } from './AppMainComponent/AppMainComponent';
 import { HeaderComponent } from './HeaderComponent/jsx/HeaderComponent';
+import { AppMainComponent } from './AppMainComponent/AppMainComponent';
 
 
 const App = () => {

@@ -3,6 +3,14 @@
 /*  ******************************************************************  */
 
 
+@media (max-width: 1575px) {
+
+    .titulo-proyecto-container {
+        font-size: 14px;
+    }
+
+}
+
 
 @media (max-width: 1450px) {
 
@@ -41,8 +49,8 @@
         height: 40px;
     }
 
-    .titulo-proyecto-texto {
-        font-size: 36px;
+    .titulo-proyecto-container {
+        font-size: 14px;
     }
 }
 
@@ -50,6 +58,7 @@
 @media (max-width: 635px) {
 
     .App-header {
+        width: 100%;
         flex-direction: column;
         height: auto;
         justify-content: center;
@@ -68,7 +77,19 @@
     .titulo-proyecto-container {
         margin-top: 20px;
         margin-bottom: 40px;
+        font-size: 12px;
     }
+}
+
+
+
+@media (max-width: 550px) {
+
+    .App-header {
+        /* justify-self: center; */
+        align-self: center; 
+    }
+
 }
 
 

@@ -2,15 +2,15 @@
 /*  **********  /src/css/app-main-component.css  **********  */
 /*  *******************************************************  */
 
-
 .app-main-component {
+    /* position: relative; */
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    /* min-height: 80vh; */
     text-align: center;
     color: #ffffff;
-    background-color: #282c34;
-    
-  }
+    background-color: #1b1b32;
+ }

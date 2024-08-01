@@ -18,12 +18,7 @@ export const Pantalla = ({ input = 0 }) => {
 
     return (
 
-        <div
-            className='input'
-        >
-            {input}
-
-        </div>
+        <div className='input' > {input} </div>
     )
 }
 

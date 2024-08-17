@@ -1,0 +1,31 @@
+/*  ***********************************  */
+/*  **********  /src/App.js  **********  */
+/*  ***********************************  */
+
+
+/*  **********  Importaciones de Estilos de la Cabecera  **********  */
+@import './HeaderComponent/css/headerComponent.css';
+@import './HeaderComponent/css/logoReact.css';
+@import './HeaderComponent/css/tituloAplicacion.css';
+@import './HeaderComponent/css/logoAplicacion.css';
+@import './HeaderComponent/css/headerResponsive.css';
+
+
+/*  **********  Importaciones de Estilos de la Aplicación  **********  */
+@import './css/app-main-component.css';
+@import './hojas-de-estilo/contenedor-principal.css';
+@import './hojas-de-estilo/Contador.css';
+@import './hojas-de-estilo/Boton.css';
+
+
+body {
+  background-color: #1b1b32;
+}
+
+ 
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  min-width: 100%;
+}

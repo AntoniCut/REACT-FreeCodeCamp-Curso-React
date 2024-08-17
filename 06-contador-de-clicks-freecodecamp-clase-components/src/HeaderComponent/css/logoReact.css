@@ -1,0 +1,47 @@
+/*  *********************************************************************  */
+/*  **********  /src/components/HeaderComponent/logoReact.css  **********  */
+/*  *********************************************************************  */
+
+
+.app-logo-react-container {
+  display: flex;
+  width: 200px;
+  font-size: 26px;
+}
+
+.app-logo-react {
+  width: 120px;
+  height: 120px;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  border: 4px dashed #61dafb; 
+  
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+
+.react-link {
+  color: #61dafb;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-decoration: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .app-logo-react {
+    animation: App-logo-spin infinite 15s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,16 @@
+/*  *********************************************************  */
+/*  **********  /src/hojas-de-estilo/Contador.css  **********  */
+/*  *********************************************************  */
+
+.contador {
+    min-width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 160px;
+    padding: 25px;
+    color: white;
+    border: 8px solid white;
+    margin-bottom: 15px;
+}

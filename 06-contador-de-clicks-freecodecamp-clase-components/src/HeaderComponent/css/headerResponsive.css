@@ -1,0 +1,116 @@
+/*  ******************************************************************  */
+/*  **********  /src/components/HeaderComponent/responsive  **********  */
+/*  ******************************************************************  */
+
+
+@media (max-width: 1575px) {
+
+    .titulo-proyecto-container {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 1450px) {
+
+    .container-logoCentral-tituloAplicacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 170px;
+    }
+
+    .logo-aplicacion-container {
+        width: 100%;
+        height: 85px;
+    }
+
+    .titulo-proyecto-container {
+        width: 100%;
+        height: 85px;
+    }
+}
+
+
+@media (max-width: 785px) {
+
+    .app-logo-react-container {
+        width: 100px;
+    }
+
+    .react-link {
+        margin-left: 25px;
+    }
+
+    .logo-aplicacion {
+        width: 300px;
+        height: 40px;
+    }
+
+    .titulo-proyecto-container {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 635px) {
+
+    .App-header {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-logo-react-container {
+        margin-right: 100px;
+    }
+
+    .logo-aplicacion {
+        margin-top: 100px;
+        height: 30px;
+    }
+
+    .titulo-proyecto-container {
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 550px) {
+
+    .App-header {
+        /* justify-self: center; */
+        align-self: center; 
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .titulo-proyecto-texto {
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 330px) {
+
+    .app-logo-react {
+        /* display: flex; */
+        width: 80px;
+        height: 80px;
+        font-size: 18px;
+    }
+
+    .titulo-proyecto-texto {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,17 @@
+/*  **************************************************************************  */
+/*  **********  /src/components/HeaderComponent/logoAplicacion.css  **********  */
+/*  **************************************************************************  */
+
+
+.logo-aplicacion-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 50%;
+   height: 170px;
+}
+
+.logo-aplicacion {
+   width: 400px;
+   height: 50px;
+}

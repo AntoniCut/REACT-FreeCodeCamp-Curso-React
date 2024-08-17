@@ -1,0 +1,37 @@
+/*  ************************************  */
+/*  **********  /src/App.css  **********  */
+/*  ************************************  */
+
+
+/*  **********  Importaciones de Estilos de la Cabecera  **********  */
+@import './componentes/HeaderComponent/css/headerComponent.css';
+@import './componentes/HeaderComponent/css/logoReact.css';
+@import './componentes/HeaderComponent/css/tituloAplicacion.css';
+@import './componentes/HeaderComponent/css/logoFreeCodeCamp.css';
+@import './componentes/HeaderComponent/css/headerResponsive.css';
+
+
+/*  **********  Importaciones de Estilos del LogoReact y Testimonios  **********  */
+@import './logoReact.css';
+@import './hojas-de-estilo/Testimonio.css';
+
+
+.App {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 18px;
+    background-color: #f5f6f7;
+}
+
+

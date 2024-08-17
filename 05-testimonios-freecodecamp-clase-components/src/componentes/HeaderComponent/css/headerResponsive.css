@@ -1,0 +1,91 @@
+/*  ******************************************************************  */
+/*  **********  /src/components/HeaderComponent/responsive  **********  */
+/*  ******************************************************************  */
+
+
+
+@media (max-width: 1450px) {
+
+    .container-logoCentral-tituloAplicacion {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-height: 170px;
+        padding-top: 20px;
+    }
+
+    .freecodecamp-logo-contenedor {
+        margin-top: -35px;
+    }
+
+    .freecodecamp-logo {
+        width: 400px;
+        height: 50px;
+        margin-top: 10px;
+      }
+
+      .titulo-proyecto {
+        margin-top: -10px;
+      }
+}
+
+
+@media (max-width: 785px) {
+
+    .logo-link {
+        width: 100px;
+    }
+
+    .App-link {
+        margin-left: 25px;
+    }
+
+    .freecodecamp-logo {
+        width: 300px;
+        height: 40px;
+    }
+
+      .titulo-proyecto {
+        font-size: 24px;
+      }
+}
+
+
+@media (max-width: 635px) {
+
+    .App-header {
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-link {
+        margin-right: 100px;
+    }
+
+    .freecodecamp-logo {
+        margin-top: 100px;
+        height: 30px;
+    }
+
+    .titulo-proyecto {
+        margin-top: 20px;
+        margin-bottom: 40px; 
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+    .App-header {
+        min-width: 100%;
+        margin: 0;
+        /* flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center; */
+    }
+}
